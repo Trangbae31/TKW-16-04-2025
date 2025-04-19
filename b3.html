@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2.2</title>
+    </head>
+    <body>
+        <script>
+            let a = Number(prompt("Nhập số a:"));
+            let b = Number(prompt("Nhập số b:"));
+            function tinhtong(a,b) {
+                return a + b
+            }
+            function tinhhieu(a,b) {
+                return a - b
+            }
+            function tinhtich(a,b) {
+                return a * b
+            }
+            function tinhthuong(a,b) {
+                return a / b
+            }
+            let tong = tinhtong(a,b)
+            let hieu = tinhhieu(a,b)
+            let tich = tinhtich(a,b)
+            let thuong = tinhthuong(a,b)
+            document.write("Tổng = " , tong , "<br>")
+            document.write("Hiệu = " , hieu , "<br>")
+            document.write("Tích = " , tich , "<br>")
+            document.write("Thương = " , thuong , "<br>")
+        </script>
+        
+    </body>
+</html>

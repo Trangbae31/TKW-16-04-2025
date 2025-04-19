@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bài 2 (file)</title>
+</head>
+<body>
+  <script>
+    let nam = parseInt(prompt("Nhập năm dương lịch:"));
+
+    let ketQua;
+if ((nam % 4 === 0 && nam % 100 !== 0) || nam % 400 === 0) {
+  ketQua = nam + " là năm nhuận.";
+} else {
+  ketQua = nam + " không phải năm nhuận.";
+}
+
+    document.write( ketQua );
+  </script>
+</body>
+</html>

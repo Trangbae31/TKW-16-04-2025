@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>Bài 7e (file)</title></head>
+<body>
+  <script>
+    let nhap = prompt("Nhập các phần tử mảng (cách nhau dấu phẩy):");
+    let arr = nhap.split(",").map(Number);
+
+    let x = parseInt(prompt("Nhập phần tử cần tìm:"));
+    let vitri = arr.indexOf(x);
+
+    if (vitri !== -1) {
+      document.write("Phần tử " + x + " có trong mảng tại vị trí: " + vitri);
+    } else {
+      document.write("Không tìm thấy phần tử " + x + " trong mảng.");
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Bài 7b (file)</title></head>
+<body>
+  <script>
+    let nhap = prompt("Nhập các phần tử mảng (cách nhau dấu phẩy):");
+    let arr = nhap.split(",").map(Number);
+    
+    let daoNguoc = [...arr].reverse();
+    document.write("Mảng sau khi đảo ngược: " + daoNguoc);
+  </script>
+</body>
+</html>

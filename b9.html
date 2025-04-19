@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bài 5 (file)</title>
+</head>
+<body>
+  <script>
+    function congNeuChan(so, tongHienTai) {
+      if (so % 2 === 0) {
+        return tongHienTai + so;
+      } else {
+        return tongHienTai;
+      }
+    }
+
+    // Khởi tạo tổng
+    let tong = 0;
+
+    // Gọi hàm nhiều lần với các số từ 0 đến 20
+    tong = congNeuChan(0, tong);
+    tong = congNeuChan(1, tong);
+    tong = congNeuChan(2, tong);
+    tong = congNeuChan(3, tong);
+    tong = congNeuChan(4, tong);
+    tong = congNeuChan(5, tong);
+    tong = congNeuChan(6, tong);
+    tong = congNeuChan(7, tong);
+    tong = congNeuChan(8, tong);
+    tong = congNeuChan(9, tong);
+    tong = congNeuChan(10, tong);
+    tong = congNeuChan(11, tong);
+    tong = congNeuChan(12, tong);
+    tong = congNeuChan(13, tong);
+    tong = congNeuChan(14, tong);
+    tong = congNeuChan(15, tong);
+    tong = congNeuChan(16, tong);
+    tong = congNeuChan(17, tong);
+    tong = congNeuChan(18, tong);
+    tong = congNeuChan(19, tong);
+    tong = congNeuChan(20, tong);
+
+    // Hiển thị kết quả
+    document.write("Tổng các số chẵn từ 0 đến 20 là: " + tong);
+  </script>
+</body>
+</html>

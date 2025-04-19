@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><title>Bài 1 (file)</title></head>
+<body>
+  <script>
+    let diem = parseFloat(prompt("Nhập điểm trung bình:"));
+    let loai = "";
+
+    if (diem >= 9 && diem <= 10) loai = "Xuất sắc";
+    else if (diem >= 7) loai = "Khá";
+    else if (diem >= 5) loai = "Trung bình";
+    else if (diem >= 0) loai = "Yếu";
+    else loai = "Điểm không hợp lệ";
+
+    document.write("Xếp loại: " , loai);
+  </script>
+</body>
+</html>

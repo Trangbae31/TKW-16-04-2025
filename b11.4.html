@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>Bài 7d (file)</title></head>
+<body>
+  <script>
+    let nhap = prompt("Nhập các phần tử mảng (cách nhau dấu phẩy):");
+    let arr = nhap.split(",").map(Number);
+    let tong = 0;
+
+    // Kiểm tra từng phần tử
+    if (arr[0] % 2 === 0) tong += arr[0];
+    if (arr[1] % 2 === 0) tong += arr[1];
+    if (arr[2] % 2 === 0) tong += arr[2];
+    if (arr[3] % 2 === 0) tong += arr[3];
+    if (arr[4] % 2 === 0) tong += arr[4];
+
+    document.write("Tổng các phần tử chẵn: " + tong);
+  </script>
+</body>
+</html>
